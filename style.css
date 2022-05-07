@@ -1,0 +1,264 @@
+.header_logo img{
+    width: 10%;
+    height: 10%;
+}
+
+.header_logo{
+    display: flex;
+    justify-content: space-between
+}
+
+.header_title{
+    font-size: 40px;
+}
+
+.header_menu{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(233, 212, 184);
+    line-height: 60px;
+    margin: 0px 0px 30px;
+}
+
+.service{
+    margin: 0px 30px;
+}
+
+.works{
+    margin: 0px 30px;
+}
+
+.news{
+    margin: 0px 30px;
+}
+
+.about{
+    margin: 0px 30px;
+}
+
+.onlinestore{
+    margin: 0px 30px;
+}
+
+.Top_img img{
+    width: 100%;
+}
+
+.content1{
+    text-align: center;
+    background-color: rgb(231, 212, 188);
+    line-height: 80px;
+    margin: 30px 42px 0px;
+}
+
+.content1_pic img{
+    width: 70%;
+}
+
+.content1_pic{
+    display: flex;
+    text-align: center;
+}
+
+.content1_pic3{
+    margin-left: auto;
+}
+
+.content2{
+    text-align: center;
+    background-color: rgb(230, 211, 187);
+    line-height: 80px;
+    margin: 20px 42px 0px;
+}
+
+.content2_pic{
+    display: flex;
+}
+
+.content2_pic img{
+    width: 40%;
+    margin: 0px 0px 0px 42px;
+}
+
+.content2_pic_text{
+    margin: 5px 42px 0px 5px;
+    font-size: larger;
+}
+
+.content2_youtube{
+    display: flex;
+    margin: 0px 43px 0px 45px;
+}
+
+.youtube_text{
+    font-size: larger;
+}
+
+.youtube1{
+    margin-left: auto;
+}
+
+.content3{
+    text-align: center;
+    background-color: rgb(228, 210, 186);
+    line-height: 80px;
+    margin: 30px 42px 0px;
+}
+
+.content3_pic img{
+    width: 40%;
+    margin: 0px 0px 0px 42px;
+    float: left;
+}
+
+.content3_text{
+    font-size: larger;
+    margin: -10px 40px 0px 42px;
+}
+
+.content4{
+    text-align: center;
+    background-color: rgb(228, 207, 180);
+    line-height: 80px;
+    margin: 30px 42px 0px;
+}
+
+.content4_info{
+    list-style-type: none;
+    margin: 30px 43px 0px 3px;
+    font-size: larger;
+}
+
+.content4_info1{
+    padding: 10px;
+    border: 1px solid #333;
+    background: #f2f2f2;
+}
+
+.content4_info2{
+    padding: 10px;
+    border: 1px solid #333;
+    background: #f2f2f2;
+}
+
+.content4_info3{
+    padding: 10px;
+    border: 1px solid #333;
+    background: #f2f2f2;
+}
+
+.content4_info4{
+    padding: 10px;
+    border: 1px solid #333;
+    background: #f2f2f2;
+}
+
+.content5{
+    text-align: center;
+    background-color: rgb(228, 207, 180);
+    line-height: 80px;
+    margin: 30px 42px 0px;
+}
+
+.content5_gmaps{
+    display: flex;
+    margin: 0px 43px 0px 50px;
+}
+
+.gmaps_text{
+    font-size: larger;
+}
+
+.gmaps{
+    margin-left: auto;   
+}
+
+.content6{
+    text-align: center;
+    background-color: rgb(228, 207, 180);
+    line-height: 80px;
+    margin: 30px 42px 0px;
+}
+
+.content6_form{
+    font-size: larger;
+    margin: 0px 50px;
+}
+
+.form_name{
+    margin: 15px 0px;
+}
+
+.form_mail{
+    margin: 15px 0px;
+}
+
+.form_comment1{
+    margin: 15px 0px 0px;
+}
+
+.form_submit{
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.footer_logo img{
+    width: 15%;
+    height: 15%;
+    float: left;
+}
+
+.footer_menu1{
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(233, 212, 184);
+    line-height: 95px;
+}
+
+.footer_menu2{
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(233, 212, 184);
+    line-height: 95px;
+}
+
+.work{
+    margin: 0px 40px;
+}
+
+.faq{
+    margin: 0px 40px;
+}
+
+.store{
+    margin: 0px 40px;
+}
+
+.online{
+    margin: 0px 40px;
+}
+
+.me{
+    margin: 0px 40px;
+}
+
+.recruit{
+    margin: 0px 40px;
+}
+
+.priv{
+    margin: 0px 40px;
+}
+
+.kiyaku{
+    margin: 0px 40px;
+}
+
+.copyright{
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.footer{
+    margin: 70px 0px 0px;
+}
