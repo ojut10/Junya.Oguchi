@@ -16,7 +16,7 @@
 .up{
     width: 100%;
     height: 50%;
-    background-color: black;
+    background-color: rgb(30, 30, 30);
     position: fixed;
     z-index: 2;
 }
@@ -24,14 +24,35 @@
 .down{
     width: 100%;
     height: 50%;
-    background-color: black;
+    background-color: rgb(30, 30, 30);
     position: fixed;
     bottom: 0;
     z-index: 2;
 }
 
-.header_main{
+.sumple_animation{
     position: relative;
+    overflow: hidden;
+}
+
+.header_title{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_title img{
+    width: 400px;
+    background: transparent;
+    border-radius: 6px;
+}
+
+@media screen and (max-width:767px){
+    .header_title img{
+        width: 300px;
+        background: transparent;
+        border-radius: 6px;    }    
 }
 
 .neko{
@@ -44,6 +65,7 @@
 .neko img{
     width: 800px;
     animation: rotate 6s linear infinite;
+    background: transparent;
 }
 
 @keyframes rotate {
@@ -54,25 +76,84 @@
 @media screen and (max-width:767px){
     .neko img{
         width: 400px;
-        animation: rotate 6s linear infinite;
     }
 }
 
-.circle{
+.circle1{
     position: absolute;
     width:70px;
     height:70px;
     border-radius:100%;
     background:rgb(112, 112, 112);
     transform-origin:right center;
-    animation:2s ease infinite alternate rotation;
+    animation:2s ease infinite alternate rotation1;
     left: 80px;
     top: 90px;
     z-index: 1;
-
 }
 
-@keyframes rotation{
+@keyframes rotation1{
     0%{ transform:rotate(0);}
     100%{ transform:rotate(360deg); }
-  }
+}
+
+@media screen and (max-width:767px){
+    .circle1{
+        width:50px;
+        height:50px;
+        left: 50%;
+    }
+}
+
+.circle2{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 100%;
+    transform-origin: left;
+    animation: 3s infinite alternate rotation2;
+    right: 200px;
+    top: 60px;
+    z-index: 1;
+}
+
+@keyframes rotation2{
+    0%{ transform:rotate(0);}
+    100%{ transform:rotate(360deg); }
+}
+
+@media screen and (max-width:767px){
+    .circle2{
+        width:60px;
+        height:60px;
+        right: 50%;
+        top: 23%;
+    }
+}
+
+.square1{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(145, 145, 145);
+    border-radius: 30%;
+    animation: 3s linear infinite rotationY;
+    z-index: 1;
+    left: 150px;
+    top: 400px;
+}
+
+@keyframes rotationY{
+    0%{ transform:rotateY(0);}
+    100%{ transform:rotateY(360deg); }
+}
+
+@media screen and (max-width:767px){
+    .square1{
+        width:60px;
+        height:60px;
+        left: 50%;
+        top: 70%;
+    }
+}
