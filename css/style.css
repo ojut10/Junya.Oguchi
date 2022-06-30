@@ -134,7 +134,3 @@ img{
 .d-demo__item {
     width: calc(100vw / 6);
 }
-
-.d-demo__item > img{
-    width: 100%;
-}
